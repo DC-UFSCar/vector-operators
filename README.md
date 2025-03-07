@@ -1,4 +1,4 @@
-# Primeiro laboratório de MC613
+# Laboratório de Exemplo de Verilog
 
 Siga as instruções na página da disciplina para maiores detalhes.
 
