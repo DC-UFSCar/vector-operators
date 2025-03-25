@@ -1,6 +1,12 @@
-# Simulação das Operações Básicas de Verilog
+# Vetores e sua operações 
 
-Siga as instruções na página da disciplina para maiores detalhes.
+Implemente no arquivo `vector.v` as saídas conforme solicitado:
 
-Mas, nesse caso, tudo é bem simples, basta completar a implementação de todas as saídas no arquivo basic.v.
+| Saída | Resultado |
+|   ---:| :---      |
+|`a_bitwise_or_b`|`a` ***and*** bit-a-bit com `b`|
+|`a_logical_or_b`|`a` ***and*** lógico com `b`|
+|`a_reduction_or`|***or*** entre os bits de `a`|
+|`b_reduction_or`|***or*** entre os bits de `b`|
+|`not_a_not_b`|`a` ***not*** bit-a-bit contatenado com `b` ***not*** bit-a-bit
 

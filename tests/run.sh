@@ -1,9 +1,9 @@
 cd tests
-iverilog -o tb tb_basic$1.v ../basic.v
-rm -f basic.out
-./tb > basic.out
+iverilog -o tb tb_vector.v ../vector.v
+rm -f vector.out
+./tb > vector.out
 
-if diff basic.out basic$1.ok >/dev/null; then
+if diff vector.out vector.ok >/dev/null; then
     echo "OK"
     exit 0
 else
