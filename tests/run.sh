@@ -1,8 +1,9 @@
 cd tests
-iverilog -o tb *.v ../*.v
-./tb > saida.out
+iverilog -o tb tb_basic$1.v ../basic.v
+rm -f basic.out
+./tb > basic.out
 
-if diff saida.out saida.ok >/dev/null; then
+if diff basic.out basic$1.ok >/dev/null; then
     echo "OK"
     exit 0
 else
