@@ -6,6 +6,7 @@ module vector(
   output a_reduction_or,
   output b_reduction_or,
   output [7:0] not_a_not_b);
-
+  // Implemente as operações para cada uma das saídas usando o modelo
+  // assign a_bitwise_or_b = ... ;
 
 endmodule
